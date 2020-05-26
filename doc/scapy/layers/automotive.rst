@@ -917,8 +917,8 @@ Create SOME/IP package::
    sip.proto_ver = 1
    sip.msg_type = "REQUEST"
    sip.retcode = "E_OK"
-   sip.srv_id = 0x1234
-   sip.method_id = 0x421
+   sip.msg_id.srv_id = 0x1234
+   sip.msg_id.method_id = 0x421
 
 Add the payload::
 
